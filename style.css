@@ -2,12 +2,11 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 20px;
-  background: url('https://images.unsplash.com/photo-1526401281623-74fc33a2bc2c?auto=format&fit=crop&w=1600&q=80');
+  background-image: url('https://images.unsplash.com/photo-1501973801540-537f08ccae7b?auto=format&fit=crop&w=1600&q=80');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-
 h1 {
   color: #333;
   border-bottom: 2px solid #007bff;
