@@ -7,8 +7,10 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
 h1 {
-  color: #333;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
   border-bottom: 2px solid #007bff;
   padding-bottom: 10px;
   animation: fadeIn 3s ease-in-out;
@@ -20,17 +22,36 @@ h1 {
 }
 
 ul {
-  background: #fff;
+  background: rgba(255,255,255,0.8);
   padding: 15px;
   border-radius: 8px;
   list-style-type: square;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
 
 li {
   margin-bottom: 8px;
 }
 
-p
+p {
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+}
 
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
+button:hover {
+  background-color: #0056b3;
+}
+
+audio {
+  display: none;
+}
