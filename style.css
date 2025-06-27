@@ -4,12 +4,19 @@ body {
   margin: 0;
   padding: 20px;
 }
-
-h1 {
+ h1 {
   color: #333;
   border-bottom: 2px solid #007bff;
   padding-bottom: 10px;
+  animation: fadeIn 3s ease-in-out;
 }
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+
 
 ul {
   background: #fff;
@@ -25,15 +32,5 @@ li {
 p {
   color: #555;
 }
-h1 {
-  color: #333;
-  border-bottom: 2px solid #007bff;
-  padding-bottom: 10px;
-  animation: fadeIn 3s ease-in-out;
-}
 
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
 
